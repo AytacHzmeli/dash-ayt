@@ -8,12 +8,15 @@ import Icons from "@/pages/Icons.vue";
 import TableList from "@/pages/TableList.vue";
 import Typography from "@/pages/Typography.vue";
 
+
+
 Vue.use(VueRouter);
 
 const routes = [{
         path: "/",
         name: "homeview",
         component: HomeView,
+        
     },
     {
         path: "DashboardLayout",
@@ -45,6 +48,7 @@ const routes = [{
         name: "TYPOGRAPHY",
         component: Typography,
     },
+    
 
 ];
 
