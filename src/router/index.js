@@ -7,15 +7,22 @@ import UserProfile from "@/pages/UserProfile.vue";
 import Icons from "@/pages/Icons.vue";
 import TableList from "@/pages/TableList.vue";
 import Typography from "@/pages/Typography.vue";
+<<<<<<< HEAD
 import Maps from "@/pages/Maps.vue";
 import Notifications from "@/pages/Notifications.vue";
 import UpgradeToPRO from "@/pages/UpgradeToPRO.vue";
+=======
+
+
+
+>>>>>>> aytac_work
 Vue.use(VueRouter);
 
 const routes = [{
         path: "/",
         name: "homeview",
         component: HomeView,
+        
     },
     {
         path: "DashboardLayout",
@@ -47,6 +54,7 @@ const routes = [{
         name: "TYPOGRAPHY",
         component: Typography,
     },
+<<<<<<< HEAD
     {
         path: "maps",
         name: "MAPS",
@@ -65,6 +73,9 @@ const routes = [{
         name: "UPGRADETOPRO",
         component: UpgradeToPRO,
     },
+=======
+    
+>>>>>>> aytac_work
 
 ];
 
