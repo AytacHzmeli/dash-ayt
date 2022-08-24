@@ -7,11 +7,11 @@ import GlobalDirectives from "./globalDirectives";
 import { MdButton, MdContent, MdTabs } from "vue-material/dist/components";
 import "vue-material/dist/vue-material.min.css";
 import "vue-material/dist/theme/default.css";
-// import "vue-material/dist/vue-material.css";
 import "./assets/scss/material-dashboard.scss";
 import SideBar from "./components/SidebarPlugin";
 
 import Chartist from "chartist";
+import "es6-promise/auto";
 
 Vue.use(MdButton);
 Vue.use(MdContent);
