@@ -38,7 +38,7 @@
   </div>
 </template>
 <script>
-import SidebarLink from "./SidebarLink.vue";
+import SidebarLink from "../SidebarPlugin/SidebarLink.vue";
 
 export default {
   components: {
@@ -88,7 +88,7 @@ export default {
   },
 };
 </script>
-<style>
+<style lang="scss">
 @media screen and (min-width: 991px) {
   .nav-mobile-menu {
     display: none;
