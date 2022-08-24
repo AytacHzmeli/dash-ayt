@@ -7,7 +7,9 @@ import UserProfile from "@/pages/UserProfile.vue";
 import Icons from "@/pages/Icons.vue";
 import TableList from "@/pages/TableList.vue";
 import Typography from "@/pages/Typography.vue";
-
+import Maps from "@/pages/Maps.vue";
+import Notifications from "@/pages/Notifications.vue";
+import UpgradeToPRO from "@/pages/UpgradeToPRO.vue";
 Vue.use(VueRouter);
 
 const routes = [{
@@ -44,6 +46,24 @@ const routes = [{
         path: "typography",
         name: "TYPOGRAPHY",
         component: Typography,
+    },
+    {
+        path: "maps",
+        name: "MAPS",
+        meta: {
+            hideFooter: true,
+        },
+        component: Maps,
+    },
+    {
+        path: "notifications",
+        name: "NOTIFICATIONS",
+        component: Notifications,
+    },
+    {
+        path: "upgrade",
+        name: "UPGRADETOPRO",
+        component: UpgradeToPRO,
     },
 
 ];
