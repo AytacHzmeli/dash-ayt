@@ -1,7 +1,7 @@
 <template>
   <div class="content">
     <div class="md-layout">
-      <div
+      <!-- <div
         class="md-layout-item md-medium-size-100 md-xsmall-size-100 md-size-33"
       >
         <chart-card
@@ -72,7 +72,7 @@
             </div>
           </template>
         </chart-card>
-      </div>
+      </div> -->
       <div
         class="md-layout-item md-medium-size-50 md-xsmall-size-100 md-size-25"
       >
@@ -202,16 +202,17 @@
 <script>
 import {
   StatsCard,
-  ChartCard,
+  // ChartCard,
   NavTabsCard,
   NavTabsTable,
   OrderedTable,
 } from "@/components";
 
 export default {
+  name: "DASHBOARD",
   components: {
     StatsCard,
-    ChartCard,
+    // ChartCard,
     NavTabsCard,
     NavTabsTable,
     OrderedTable,
